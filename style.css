@@ -1,0 +1,141 @@
+header {
+    display: flex;
+    height: 40px;
+    width: 80%;
+    margin: 20px auto;
+    justify-content: space-around;
+}
+
+#search {
+    width: 47%;
+    height: 31px;
+    background-color: green;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+#titleMovieSearch {
+    width: 47%;
+    padding-left: 5px;
+    height: 25px;
+
+}
+
+main {
+    display: flex;
+    margin: 20px auto;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#movieBox {
+    border: 1px solid #000;
+    margin: 10px 5px;
+    height: 511px;
+    width: 277px;
+    border-radius: 5px;
+
+}
+
+#titleInMovieBox {
+    background-color: lightgrey;
+    color: black;
+    width: 100%;
+    min-height: 27px;
+
+}
+
+#imdbID {
+    display: none;
+}
+
+#poster {
+    height: 412px;
+    width: 277px;
+}
+
+#moreDetails {
+    background-color: lightseagreen;
+    width: 100%;
+    height: 32px;
+    color: white;
+    margin-bottom: 0;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal-content {
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    background-color: white;
+    padding: 10px;
+    width: 80%;
+    height: 600px;
+    display: flex;
+}
+
+.show-modal {
+    opacity: 1;
+    visibility: visible;
+}
+
+#dataInModelBox {
+    height: 600px;
+    width: 70%;
+    margin: 0 10px;
+}
+
+#posterInModalBox {
+    height: 600px;
+    width: 30%;
+    border: 1px solid black;
+
+}
+
+#titleInModalBox {
+    padding: 5px;
+    text-align: center;
+    background-color: lightgrey;
+    height: 39px;
+    align-items: 40px;
+    line-height: 40px;
+}
+
+#imdbIDInModalBox {
+    min-height: 533px;
+    margin: 10px 0px;
+    padding: 5px;
+}
+
+#closeBtn {
+     background-color: white;
+    color: gray;
+    height: 40px;
+    width: 40px;
+    border: none;
+    font-size: 40px;
+}
+
+
+#imdbIDInModalBox>div {
+    margin-top: 10px;
+
+}
+
+#mixData {
+    color: lightgrey;
+}
